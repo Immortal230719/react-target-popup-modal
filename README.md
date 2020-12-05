@@ -2,6 +2,8 @@
 
 > react component for highlighting any element of DOM with optional description which rendering in renderProps.
 
+- See [example](https://Immortal230719.github.io/react-target-popup-modal/) for more details
+
 ### NOTE
 
 - the component need to render on top level of app.

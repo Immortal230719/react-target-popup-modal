@@ -4,6 +4,7 @@
   "description": "react component for highlighting any element of DOM with optional description which rendering in renderProps",
   "author": "Immortal230719",
   "license": "MIT",
+  "homepage": "https://github.com/Immortal230719/react-target-popup-modal",
   "repository": "https://github.com/Immortal230719/react-target-popup-modal.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
