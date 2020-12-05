@@ -1,0 +1,13 @@
+.TargetPlugRenderWrapper {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  z-index: 10;
+  opacity: 0;
+  transition: 0.5s all;
+  color: inherit;
+}
+
+.TargetPlugRenderWrapper_visible {
+  opacity: 1;
+}

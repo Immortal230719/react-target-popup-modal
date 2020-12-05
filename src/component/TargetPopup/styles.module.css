@@ -1,0 +1,53 @@
+.targetPopup {
+  display: block;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9;
+}
+
+.targetPopup_top svg {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+}
+.targetPopup_bottom svg {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: -15px;
+  right: 0;
+}
+.targetPopup_left .bottom_svg {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  bottom: 0;
+  right: -15px;
+}
+.targetPopup_left .top_svg {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 0;
+  right: -15px;
+}
+
+.isUntoucheble:before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: -100vh;
+  right: 0;
+}
+
+.relative {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
